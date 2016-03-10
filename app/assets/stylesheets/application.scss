@@ -1,5 +1,5 @@
-$primary: #03A9F4;
-$primary-dark: #0288D1;
+$primary: #F44336;
+$primary-dark: #D32F2F;
 
 $darker: #222226;
 $dark: #3C3C42;
@@ -18,7 +18,15 @@ $link-color: $primary;
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 @import "materialize";
-@import "overrides";
 @import "animate";
 @import "font-awesome";
 @import "static";
+
+html, body {
+  color: $mid;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 300;
+}

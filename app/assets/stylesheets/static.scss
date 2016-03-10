@@ -1,0 +1,25 @@
+.hero-container {
+  margin-top: 100px;
+  background: $primary;
+  color: #fff;
+  padding: 20px 10px;
+  text-align: center;
+  h1 {
+    font-size: 2.25em;
+    margin-top: 10px;
+  }
+  h2 {
+    font-size: 1.25em;
+  }
+}
+
+.home-section {
+  padding: 100px 10px 300px;
+  h3 {
+    font-size: 2.25em;
+  }
+  &.dark {
+    background: $light;
+    color: #fff;
+  }
+}
