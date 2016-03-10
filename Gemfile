@@ -3,7 +3,7 @@ ruby '2.2.3'
 
 gem 'rails', '4.2.5'
 gem 'puma'
-gem 'sqlite3'
+gem 'pg'
 
 gem 'haml-rails'
 gem 'sass-rails', '~> 5.0'
