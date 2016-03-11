@@ -12,3 +12,10 @@
   %body
     = render 'layouts/navigation'
     = yield
+
+    %footer.center-align
+      .container
+        %span Made with
+        %i.fa.fa-heart-o.love
+        %span by
+        = link_to '5TRINGY CREATIVE', 'http://stringycreative.com/', target: '_blank'
