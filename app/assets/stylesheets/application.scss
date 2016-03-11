@@ -20,11 +20,11 @@ $link-color: $primary;
 @import "materialize";
 @import "animate";
 @import "font-awesome";
+@import "navigation";
 @import "static";
 
 html, body {
   color: $mid;
-
 }
 
 h1,h2,h3,h4,h5,h6 {
